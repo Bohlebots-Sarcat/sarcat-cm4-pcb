@@ -5636,6 +5636,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bohlebots.lib:+3.3V"
 			(power)
 			(pin_names
@@ -6655,6 +6776,12 @@
 		(uuid "703b99bb-dfed-4587-a94a-8fdac3049840")
 	)
 	(junction
+		(at 218.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7772d594-f1af-428a-b209-64953f5dec6c")
+	)
+	(junction
 		(at 160.02 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7196,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 102.87) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f7e4dd-9b57-49cc-97ef-fd42684a64f3")
+	)
+	(wire
+		(pts
 			(xy 83.82 91.44) (xy 86.36 91.44)
 		)
 		(stroke
@@ -7263,6 +7400,16 @@
 			(type default)
 		)
 		(uuid "0dcd4708-766c-4146-b6b0-d77d431acb52")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 218.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0debb936-ad4f-4cb2-bc98-bfa10fb7c579")
 	)
 	(wire
 		(pts
@@ -7956,6 +8103,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 104.14) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f61c56-9324-41ec-b761-54e0db8e82f1")
+	)
+	(wire
+		(pts
 			(xy 83.82 149.86) (xy 82.55 151.13)
 		)
 		(stroke
@@ -8113,6 +8270,16 @@
 			(type default)
 		)
 		(uuid "7c03b606-340a-4adc-af2c-52440a59e5b3")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6fa802-1c02-4e51-9e34-cbacea64d2ac")
 	)
 	(wire
 		(pts
@@ -9109,6 +9276,18 @@
 		(uuid 5af1da21-bed6-4fe0-955e-163aff33ee2d)
 	)
 	(rectangle
+		(start 204.47 97.79)
+		(end 238.76 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85e24102-6392-4019-a1a7-0a99d1cfb464)
+	)
+	(rectangle
 		(start 204.47 12.7)
 		(end 238.76 69.85)
 		(stroke
@@ -9144,6 +9323,16 @@
 		)
 		(uuid c9e8c076-cb66-4953-8dd0-bc42e57d8776)
 	)
+	(text "I2C Pull Up"
+		(exclude_from_sim no)
+		(at 232.918 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eb3cf4f-d472-42b1-97c5-989b3f238cc1")
+	)
 	(text "I2C Connectors"
 		(exclude_from_sim no)
 		(at 231.14 14.478 0)
@@ -9153,6 +9342,16 @@
 			)
 		)
 		(uuid "20be0657-d402-42db-a675-3e07dd198e6f")
+	)
+	(text "I2C CMPS14"
+		(exclude_from_sim no)
+		(at 232.664 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61b820be-69c3-4942-8f3b-2bae07e10b58")
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
@@ -9341,6 +9540,28 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
+		(at 222.25 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "457dd4a7-de88-4c05-a33e-ca8300ef44ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 119.3641 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
 		(at 215.9 26.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9445,6 +9666,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACT_LED"
+		(shape input)
+		(at 25.4 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "541f7190-615d-49b1-8f5c-99ba43d3181d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.6739 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9682,6 +9925,50 @@
 		(uuid "d3a2ea42-c985-4b66-8807-d67eb1908932")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.9353 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 215.9 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5e4920a-73f1-4682-a51a-423f8b57c471")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 119.4246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_OTG"
+		(shape input)
+		(at 129.54 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd50ba2b-6c93-4aea-a4d0-743eb7b37c76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2091 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,6 +10760,76 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b9455f9-063f-4573-9146-5f4608448542")
+		(property "Reference" "R1"
+			(at 218.44 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 218.44 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:R_THT"
+			(at 214.122 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "588335a3-2387-443e-bfc5-a0478f4559bd")
+		)
+		(pin "2"
+			(uuid "9e52e84d-1114-42e5-8f5b-1091637c413d")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11321,6 +11678,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 222.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77972447-1b89-4015-be50-280baf49dd7d")
+		(property "Reference" "R2"
+			(at 224.79 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 224.79 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:R_THT"
+			(at 220.472 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bbb1a6c-ab16-47da-990e-fceda4336deb")
+		)
+		(pin "2"
+			(uuid "76e4f4d9-7ce7-4324-ac9d-857ea8b0368d")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:Taster_Led")
 		(at 260.35 45.72 0)
 		(unit 1)
@@ -11679,6 +12106,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+3.3V")
+		(at 219.71 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b0bbfc-9946-4289-a993-4cc4c5892f0e")
+		(property "Reference" "#PWR04"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 223.52 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d7c5dd-2895-4db9-8acc-f8548a1e337a")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
