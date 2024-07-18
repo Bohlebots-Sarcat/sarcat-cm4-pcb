@@ -3,4 +3,5 @@
   (lib (name "BohleBots")(type "KiCad")(uri "${KIPRJMOD}/lib/Bohlebots_lib/footprint")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/lib/CM4IO/CM4IO.pretty")(options "")(descr ""))
   (lib (name "sarcat")(type "KiCad")(uri "${KIPRJMOD}/lib/sarcat.pretty")(options "")(descr ""))
+  (lib (name "USB1125-GF-B")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_Connector")(options "")(descr ""))
 )
