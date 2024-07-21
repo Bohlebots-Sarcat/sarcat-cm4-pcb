@@ -5636,6 +5636,729 @@
 				)
 			)
 		)
+		(symbol "CM4IO:TPD4EUSB30"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD4EUSB30"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+				(at -24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD4EUSB30_0_0"
+				(rectangle
+					(start -5.715 6.477)
+					(end 5.715 -6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -6.604) (xy -3.175 6.477)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.477) (xy 0 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 6.477) (xy 3.175 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPD4EUSB30_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.715 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.747 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.889) (xy -1.016 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.604) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy -0.635 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy 1.016 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.715 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TPD4EUSB30_1_1"
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -5787,6 +6510,203 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7279,170 +8199,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "bohlebots.lib:Pinhead_1x04V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Pinhead_1x04V"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BohleBots:HDR-TH_4P-P2.54-V-M-1"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Pin-Header-Female-Header_Made-in-China-Made-in-China-Headers-Pins1-4-pitch2-54mm_C59481.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C920779"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C920779"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pinhead_1x04V_0_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1 1)
@@ -12186,6 +12942,30 @@
 		(uuid 85e24102-6392-4019-a1a7-0a99d1cfb464)
 	)
 	(rectangle
+		(start 250.19 115.57)
+		(end 353.06 186.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99ef86f6-6e20-4165-85fe-50c5d03d41a0)
+	)
+	(rectangle
+		(start 302.26 116.84)
+		(end 351.79 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a4fb1c0f-7436-4c11-a98e-2710a32ac59f)
+	)
+	(rectangle
 		(start 283.21 12.7)
 		(end 355.6 101.6)
 		(stroke
@@ -12199,7 +12979,7 @@
 	)
 	(rectangle
 		(start 356.87 12.7)
-		(end 401.32 36.83)
+		(end 407.67 36.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -12222,8 +13002,8 @@
 		(uuid c495c848-df07-4308-a2ae-e7c8b5a8c0be)
 	)
 	(rectangle
-		(start 292.1 102.87)
-		(end 341.63 124.46)
+		(start 356.87 38.1)
+		(end 406.4 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -12257,6 +13037,28 @@
 		)
 		(uuid db60ea3b-faa4-43a2-9168-a5fda9f77646)
 	)
+	(rectangle
+		(start 251.46 116.84)
+		(end 300.99 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb11b7ba-03a7-4896-a874-a3feb605db24)
+	)
+	(text "USB + I2C"
+		(exclude_from_sim no)
+		(at 346.202 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "151f2f17-ac76-432c-b83b-85a2c61a31fb")
+	)
 	(text "I2C Pull Up"
 		(exclude_from_sim no)
 		(at 232.918 80.264 0)
@@ -12279,7 +13081,7 @@
 	)
 	(text "USB-A Connector"
 		(exclude_from_sim no)
-		(at 332.74 104.394 0)
+		(at 397.51 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12299,7 +13101,7 @@
 	)
 	(text "Ethernet Tap\n"
 		(exclude_from_sim no)
-		(at 394.97 14.224 0)
+		(at 401.066 14.224 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12357,6 +13159,26 @@
 			)
 		)
 		(uuid "77b6fdaa-2657-487e-b9e3-67b8eb9206ac")
+	)
+	(text "ESD Protection\nTVS Diode"
+		(exclude_from_sim no)
+		(at 345.186 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "815a6210-37b2-4782-aae3-e993f459cd18")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 296.418 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a601815-008c-40a2-8252-cb341f2df733")
 	)
 	(text "IR-Connector"
 		(exclude_from_sim no)
@@ -12452,6 +13274,17 @@
 		)
 		(uuid "1e079a94-bf2f-4a45-860a-34d4c42d4461")
 	)
+	(label "TRD3_P"
+		(at 288.29 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "241e57f1-8e1b-42d3-b513-60b65ea81a36")
+	)
 	(label "TRD2_N"
 		(at 318.77 46.99 180)
 		(fields_autoplaced yes)
@@ -12473,6 +13306,17 @@
 			(justify right bottom)
 		)
 		(uuid "2b9a8f49-022c-451d-80c7-d612a83b92fa")
+	)
+	(label "TRD2_N"
+		(at 262.89 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "304d3193-3d12-4932-a0d1-6cf045906d53")
 	)
 	(label "ETH_LEDY"
 		(at 15.24 45.72 0)
@@ -12628,6 +13472,17 @@
 		)
 		(uuid "972ce626-9748-49a1-b864-4e5e82c66ba2")
 	)
+	(label "TRD0_P"
+		(at 262.89 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98feb6fa-70c9-4e32-831d-0c5711967a5b")
+	)
 	(label "TRD2_N"
 		(at 15.24 38.1 0)
 		(fields_autoplaced yes)
@@ -12649,6 +13504,17 @@
 			(justify right bottom)
 		)
 		(uuid "a18ecbbd-ee4c-4904-a5ae-0f53f06c6122")
+	)
+	(label "TRD1_P"
+		(at 288.29 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acc48b39-b6f6-447c-a761-f4dc742927e7")
 	)
 	(label "ETH_LEDG"
 		(at 15.24 48.26 0)
@@ -12672,6 +13538,17 @@
 		)
 		(uuid "b98fc785-eb64-4478-8ba2-680010a7734e")
 	)
+	(label "TRD3_N"
+		(at 288.29 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7ac4fc3-f03e-41bf-85aa-ca9466246d37")
+	)
 	(label "TRD0_N"
 		(at 318.77 26.67 180)
 		(fields_autoplaced yes)
@@ -12683,6 +13560,17 @@
 		)
 		(uuid "d2ff432c-4a09-4662-92f1-9a359fceabd4")
 	)
+	(label "TRD2_P"
+		(at 262.89 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6c4b98a-2330-452c-b419-0b9037f180df")
+	)
 	(label "TRD1_P"
 		(at 95.25 30.48 180)
 		(fields_autoplaced yes)
@@ -12693,6 +13581,17 @@
 			(justify right bottom)
 		)
 		(uuid "dca47349-f9d7-4052-bac7-65faa62b4361")
+	)
+	(label "TRD1_N"
+		(at 288.29 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e379aaf4-0bda-43d3-bd98-b726d080e3f0")
 	)
 	(label "TRD1_P"
 		(at 318.77 29.21 180)
@@ -12715,6 +13614,17 @@
 			(justify right bottom)
 		)
 		(uuid "e9f16b47-09a1-4ca5-9d68-f3eaea8f1646")
+	)
+	(label "TRD0_N"
+		(at 262.89 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0c9c835-1596-4717-8b08-fc4ed680f68e")
 	)
 	(global_label "SCL"
 		(shape bidirectional)
@@ -12817,6 +13727,28 @@
 		(uuid "22262287-e406-4e72-be88-529dfa21cdb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.4136 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 314.96 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "298f840d-b306-4160-8849-5ac482f8695c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.2435 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,6 +14000,28 @@
 			)
 		)
 	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 314.96 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59fd1e0c-6db3-4979-b305-fb187f46b4b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.2435 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHUTDOWN"
 		(shape input)
 		(at 27.94 170.18 180)
@@ -13114,7 +14068,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 326.39 116.84 0)
+		(at 391.16 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13124,7 +14078,7 @@
 		)
 		(uuid "6b032c0b-37cf-49da-a6bc-5f4f480da7cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.1065 116.84 0)
+			(at 402.8765 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,9 +14132,31 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 340.36 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72e5f4f5-9667-4c97-88da-fd246d6de646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 347.9641 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 326.39 114.3 0)
+		(at 391.16 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13190,7 +14166,7 @@
 		)
 		(uuid "73c3e6f5-123a-40e1-8a36-21b4a787335e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.1065 114.3 0)
+			(at 402.8765 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13350,6 +14326,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 340.36 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4bfc843-4bdb-4c56-befe-0df6cd766869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.0246 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14485,8 +15483,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 31.75 227.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5d9cfd-c11c-4500-9e6f-c91879e15458")
+		(property "Reference" "J5"
+			(at 31.75 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 31.75 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 31.75 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83caffcf-18c0-4d6e-9fb4-0a58c7b6669a")
+		)
+		(pin "4"
+			(uuid "8cb0b4cb-a437-494d-ab4a-93c4a7edeefe")
+		)
+		(pin "2"
+			(uuid "a788537d-3411-4858-9273-320f5341c778")
+		)
+		(pin "3"
+			(uuid "27543682-9211-4fa3-8aac-eba436097f77")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 303.53 111.76 270)
+		(at 368.3 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14495,7 +15568,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b96ffda-dc79-4078-9d42-793de9145bd2")
 		(property "Reference" "#PWR039"
-			(at 297.18 111.76 0)
+			(at 361.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14504,7 +15577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 111.7599 90)
+			(at 364.49 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14513,7 +15586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 111.76 0)
+			(at 368.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14522,7 +15595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 111.76 0)
+			(at 368.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,7 +15604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 111.76 0)
+			(at 368.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14880,6 +15953,79 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 375.92 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f540ce-cb6f-4628-936b-d5e6261ec845")
+		(property "Reference" "J6"
+			(at 375.92 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 375.92 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 375.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 375.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133c03d5-3f21-4797-8aae-f046d0a64f04")
+		)
+		(pin "4"
+			(uuid "a4ae018b-74ac-49c0-a135-f84798e065ee")
+		)
+		(pin "2"
+			(uuid "af25264f-824e-4a64-92f1-0c561559c774")
+		)
+		(pin "3"
+			(uuid "b1ad62fa-79e8-48c4-bfe6-d03594dfef6f")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15385,6 +16531,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 275.59 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e99bce6-640f-4acc-b391-f36d6b378c4e")
+		(property "Reference" "#PWR013"
+			(at 281.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d9caca-b0e9-4654-abdc-6079f12bdf92")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
 		(at 318.77 77.47 90)
 		(unit 1)
@@ -15513,93 +16726,6 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bohlebots.lib:Pinhead_1x04V")
-		(at 375.92 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57cfccc5-58a0-4fd7-b5b2-8040a9cca215")
-		(property "Reference" "H2"
-			(at 379.73 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pinhead_1x04V"
-			(at 379.73 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BohleBots:HDR-TH_4P-P2.54-V-M-1"
-			(at 375.92 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Pin-Header-Female-Header_Made-in-China-Made-in-China-Headers-Pins1-4-pitch2-54mm_C59481.html"
-			(at 373.634 26.543 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C920779"
-			(at 375.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2d2c24a-bddc-485f-823d-8a58d9fcad6c")
-		)
-		(pin "1"
-			(uuid "e9da71b4-0209-4e66-99e5-9e80e25859b7")
-		)
-		(pin "4"
-			(uuid "bc6c3591-8da0-4ee0-a109-8fda0e66b95e")
-		)
-		(pin "3"
-			(uuid "ad52c77b-f7ba-427b-a2d1-d7db7b689866")
-		)
-		(instances
-			(project "cm4-pcb"
-				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16181,7 +17307,7 @@
 	)
 	(symbol
 		(lib_id "USB1125-GF-B:USB1125-GF-B")
-		(at 303.53 111.76 0)
+		(at 368.3 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16190,7 +17316,7 @@
 		(fields_autoplaced yes)
 		(uuid "7213b2a8-292a-4c01-8aef-3e45645d629d")
 		(property "Reference" "J3"
-			(at 314.96 104.14 0)
+			(at 379.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +17324,7 @@
 			)
 		)
 		(property "Value" "USB1125-GF-B"
-			(at 314.96 106.68 0)
+			(at 379.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +17332,7 @@
 			)
 		)
 		(property "Footprint" "USB1125GFB"
-			(at 322.58 206.68 0)
+			(at 387.35 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16216,7 +17342,7 @@
 			)
 		)
 		(property "Datasheet" "https://gct.co/Files/Drawings/USB1125.pdf?v=4becdda1-cc62-4082-a121-52fbd8b9794d"
-			(at 322.58 306.68 0)
+			(at 387.35 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16226,7 +17352,7 @@
 			)
 		)
 		(property "Description" "USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle"
-			(at 303.53 111.76 0)
+			(at 368.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16235,7 +17361,7 @@
 			)
 		)
 		(property "Height" "6.63"
-			(at 322.58 506.68 0)
+			(at 387.35 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16245,7 +17371,7 @@
 			)
 		)
 		(property "Mouser Part Number" "640-USB1125-GF-B"
-			(at 322.58 606.68 0)
+			(at 387.35 541.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16255,7 +17381,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB1125-GF-B?qs=KUoIvG%2F9IlbMrLtAEIp0gA%3D%3D"
-			(at 322.58 706.68 0)
+			(at 387.35 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,7 +17391,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 322.58 806.68 0)
+			(at 387.35 741.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +17401,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "USB1125-GF-B"
-			(at 322.58 906.68 0)
+			(at 387.35 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17114,6 +18240,98 @@
 		)
 	)
 	(symbol
+		(lib_id "CM4IO:TPD4EUSB30")
+		(at 327.66 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d1c8795-942e-4c2a-b010-efd4738be683")
+		(property "Reference" "U7"
+			(at 327.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4EUSB30"
+			(at 327.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+			(at 303.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+			(at 327.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+			(at 327.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f1668dbb-626a-475e-9f78-9b91bbe4375b")
+		)
+		(pin "1"
+			(uuid "0e009cc9-58b8-437f-b865-0cb36c4ef774")
+		)
+		(pin "7"
+			(uuid "940e8e87-5cd3-4d58-a61b-9f76f905a98c")
+		)
+		(pin "4"
+			(uuid "d2bf0285-b899-46f4-80c2-7bfd9f48f86c")
+		)
+		(pin "3"
+			(uuid "ffa3267d-a16a-45ce-9938-c0396b05b0ab")
+		)
+		(pin "2"
+			(uuid "7c614225-3c86-43e1-b2c8-435d97a0d1b3")
+		)
+		(pin "6"
+			(uuid "3a502d0d-36f5-4e7a-9879-a2c3d438d108")
+		)
+		(pin "9"
+			(uuid "cbc5cd13-f32d-42f1-824a-b294bf886ecc")
+		)
+		(pin "10"
+			(uuid "7760fa35-b7da-4cec-b89d-9e2159731342")
+		)
+		(pin "8"
+			(uuid "2d917538-8ee6-4bfd-8c83-d550cb24b91f")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
 		(at 215.9 41.91 90)
 		(unit 1)
@@ -17463,8 +18681,100 @@
 		)
 	)
 	(symbol
+		(lib_id "CM4IO:TPD4EUSB30")
+		(at 275.59 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac05deff-f1ad-4612-a4e3-48cfc0db10da")
+		(property "Reference" "U3"
+			(at 275.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4EUSB30"
+			(at 275.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+			(at 251.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+			(at 275.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+			(at 275.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "cdd25976-7606-47fc-bbe0-81d693f748ef")
+		)
+		(pin "1"
+			(uuid "e33e3ff8-85a9-4129-a6ce-0c31042434b2")
+		)
+		(pin "7"
+			(uuid "476df5a7-1220-4453-b515-5d096679a8de")
+		)
+		(pin "4"
+			(uuid "4a039e74-2b76-4312-812c-ad321f060f4c")
+		)
+		(pin "3"
+			(uuid "f12b46b3-6f2f-4789-95fc-c8c4d5ef5b63")
+		)
+		(pin "2"
+			(uuid "3bdfbe09-e72a-4433-9826-89d5ddbc73ef")
+		)
+		(pin "6"
+			(uuid "fce4c587-7b74-4040-b877-8097680e0430")
+		)
+		(pin "9"
+			(uuid "627c8c97-472a-41ad-a4cb-6190ae3a254f")
+		)
+		(pin "10"
+			(uuid "aaad9fb1-05d4-4c7a-b27a-a54a5a862f9f")
+		)
+		(pin "8"
+			(uuid "72e9ce28-d05a-460a-a90d-1ae197c26c22")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 303.53 114.3 270)
+		(at 368.3 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17473,7 +18783,7 @@
 		(fields_autoplaced yes)
 		(uuid "af275655-3e05-4293-9262-986184cd6457")
 		(property "Reference" "#PWR040"
-			(at 297.18 114.3 0)
+			(at 361.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17482,7 +18792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 114.2999 90)
+			(at 364.49 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,7 +18801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 114.3 0)
+			(at 368.3 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17500,7 +18810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 114.3 0)
+			(at 368.3 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +18819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 114.3 0)
+			(at 368.3 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17592,92 +18902,6 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bohlebots.lib:Pinhead_1x04V")
-		(at 31.75 228.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b76ef467-cb10-402f-8376-ea411097e92b")
-		(property "Reference" "H1"
-			(at 31.75 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pinhead_1x04V"
-			(at 31.75 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BohleBots:HDR-TH_4P-P2.54-V-M-1"
-			(at 31.75 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Pin-Header-Female-Header_Made-in-China-Made-in-China-Headers-Pins1-4-pitch2-54mm_C59481.html"
-			(at 34.036 228.473 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C920779"
-			(at 31.75 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e4727c40-1210-477e-80d1-645db274264d")
-		)
-		(pin "3"
-			(uuid "a5e96abc-2279-452e-b720-b8b54ba45e24")
-		)
-		(pin "1"
-			(uuid "45d6d5c6-9449-4d61-8775-0a4385e1aa23")
-		)
-		(pin "2"
-			(uuid "a9ff7b49-7c4c-48fc-94b2-68d7ee7b7b12")
-		)
-		(instances
-			(project "cm4-pcb"
-				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18623,6 +19847,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "Module1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 275.59 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f9495c-2227-48d9-937b-83e648606816")
+		(property "Reference" "#PWR014"
+			(at 281.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759512f6-0978-450c-a01f-b60f4866d276")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20148,7 +21439,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 326.39 111.76 90)
+		(at 391.16 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20157,7 +21448,7 @@
 		(fields_autoplaced yes)
 		(uuid "e05f9fe3-f301-4a5c-bf53-872cf8c30919")
 		(property "Reference" "#PWR041"
-			(at 332.74 111.76 0)
+			(at 397.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20166,7 +21457,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.2 111.7599 90)
+			(at 394.97 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20175,7 +21466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 111.76 0)
+			(at 391.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20184,7 +21475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 111.76 0)
+			(at 391.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,7 +21484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 326.39 111.76 0)
+			(at 391.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,17 +21505,33 @@
 		)
 	)
 	(symbol
-		(lib_id "bohlebots.lib:+5V")
-		(at 326.39 119.38 270)
+		(lib_id "CM4IO:TPD4EUSB30")
+		(at 275.59 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fda5703e-3fa7-4fe1-b4af-df6934c566ec")
-		(property "Reference" "#PWR042"
-			(at 322.58 119.38 0)
+		(uuid "e6aa54f7-1794-4bdf-a4dc-2d2fd7e6f22a")
+		(property "Reference" "U6"
+			(at 275.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4EUSB30"
+			(at 275.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+			(at 251.46 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20232,17 +21539,93 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 330.2 119.3799 90)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+			(at 275.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
+			(at 275.59 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bde0b938-8e8b-4dbf-8c5d-10e4e0f5014a")
+		)
+		(pin "1"
+			(uuid "c83594ed-16c3-4a98-9598-a40a7cf13f43")
+		)
+		(pin "7"
+			(uuid "c3a0f7fc-251a-4abb-8586-d592fcd1f066")
+		)
+		(pin "4"
+			(uuid "222ddf5f-713d-4b78-9211-2e2328fa601e")
+		)
+		(pin "3"
+			(uuid "da6789e8-cfc8-42ce-a4ab-50f1ee693576")
+		)
+		(pin "2"
+			(uuid "a296a5c1-2c41-43f8-b6c5-ed0b2a40c968")
+		)
+		(pin "6"
+			(uuid "29ef6540-a55f-40b8-b89d-6bb0cd0b1b5a")
+		)
+		(pin "9"
+			(uuid "9bebcab6-8524-4370-bc59-2870e2feb576")
+		)
+		(pin "10"
+			(uuid "f928167f-f749-49a3-862e-9396ef402b85")
+		)
+		(pin "8"
+			(uuid "66e4248d-a22e-41d1-96e0-c13fc1316985")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 327.66 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea8555e7-159d-4f79-b86b-0094737b0981")
+		(property "Reference" "#PWR026"
+			(at 334.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 119.38 0)
+			(at 327.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20251,7 +21634,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 119.38 0)
+			(at 327.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "351c9882-9028-4466-80f7-fb4f733f834f")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+5V")
+		(at 391.16 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda5703e-3fa7-4fe1-b4af-df6934c566ec")
+		(property "Reference" "#PWR042"
+			(at 387.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 394.97 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20260,7 +21710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 326.39 119.38 0)
+			(at 391.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
