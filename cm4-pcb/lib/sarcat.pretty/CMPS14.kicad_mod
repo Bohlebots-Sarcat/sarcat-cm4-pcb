@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 9.5 -17 0)
+		(at 5 -21 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "eef6a964-ff99-4ed0-a7b7-2899c96a7bc1")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 9.316637 -10.080631)
-		(end 8.316637 -11.580631)
+		(start 9.316637 -5.5)
+		(end 8.316637 -7)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "f83c8865-3499-44ee-b572-8a777244cdf2")
 	)
 	(fp_line
-		(start 9.316637 -10.080631)
-		(end 9.316637 -13.580631)
+		(start 9.316637 -5.5)
+		(end 9.316637 -9)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "a7cbc635-0c72-4a0d-90bf-b25a8d284577")
 	)
 	(fp_line
-		(start 9.316637 -10.080631)
-		(end 10.316637 -11.580631)
+		(start 9.316637 -5.5)
+		(end 10.316637 -7)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -107,28 +107,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "311dd76c-7f93-48a5-94f3-fdc02f7d3dd6")
-	)
-	(fp_circle
-		(center 3.5 -7)
-		(end 5.75 -7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "07d2475c-ea41-4943-9472-13fdf5031489")
-	)
-	(fp_circle
-		(center 15 -21)
-		(end 17.25 -21)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "813ae643-418d-4081-9b72-3a06131f96fb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 6.5 -20 0)
