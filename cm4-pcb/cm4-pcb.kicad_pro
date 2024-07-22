@@ -559,12 +559,12 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "../../../../Downloads/cm4-pcb.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/cm4-pcb.step",
       "svg": "",
       "vrml": "../../../../Downloads/cm4-pcb.wrl"
     },
