@@ -683,6 +683,28 @@
 			(thermal_bridge_angle 45)
 			(uuid "547ede57-829f-490b-a9dc-c288273a31b7")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz -11.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 11.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "BohleBots:HDR-TH_6P-P2.54-V-F-R2-C3-S2.54-4"
 		(layer "F.Cu")
@@ -1156,7 +1178,7 @@
 			(pintype "unspecified")
 			(uuid "3f1b0825-ce42-42ba-9278-d74622ff408e")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -1630,6 +1652,17 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "3f10d7d1-21a8-4777-b543-6a3b58dbd442")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step"
+			(offset
+				(xyz 3 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(footprint "CM4IO:Raspberry-Pi-4-Compute-Module"
@@ -3910,7 +3943,7 @@
 				)
 			)
 		)
-		(model "./CM4.3dshapes/DF40C-100DS.stp"
+		(model "${KIPRJMOD}/lib/CM4IO/CM4IO.3dshapes/DF40C-100DS.stp"
 			(offset
 				(xyz -0.46 15.38 0)
 			)
@@ -3921,7 +3954,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "./CM4IO.3dshapes/DF40C-100DS.stp"
+		(model "${KIPRJMOD}/lib/CM4IO/CM4IO.3dshapes/DF40C-100DS.stp"
 			(offset
 				(xyz 33.46 15.38 0)
 			)
@@ -4114,7 +4147,7 @@
 			(pintype "unspecified")
 			(uuid "6da1bed8-5404-412d-b25c-b21ea52b28e9")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -4643,7 +4676,7 @@
 			(pintype "unspecified")
 			(uuid "c017c8ab-8c2a-407b-8c74-5ab4e29490d0")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/C0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/C0603.wrl"
 			(offset
 				(xyz -0.4969509925 -0.1269999981 0.400049994)
 			)
@@ -5020,13 +5053,13 @@
 		)
 		(model "USB1125-GF-B.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -3.5 -0.8 3.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -5256,7 +5289,7 @@
 			(pintype "unspecified")
 			(uuid "cce8e472-c665-4306-b678-9cf5e1639868")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/C0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/C0603.wrl"
 			(offset
 				(xyz -0.4969509925 -0.1269999981 0.400049994)
 			)
@@ -5450,7 +5483,7 @@
 			(pintype "unspecified")
 			(uuid "5f38c0d0-95ed-4507-bd6c-3b729652f898")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -13076,7 +13109,7 @@
 			(pintype "unspecified")
 			(uuid "07906afb-1149-4f3d-b702-ae969382df40")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/LED-SMD_L1.7-W0.6-RD.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/LED-SMD_L1.7-W0.6-RD.wrl"
 			(offset
 				(xyz -0.0000761999988556 -0.3626611946 0.005079999924)
 			)
@@ -13384,6 +13417,28 @@
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
 			(uuid "42915453-fc58-408d-9f55-dd3e51795d46")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz -11.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 11.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -13942,7 +13997,7 @@
 			(pintype "unspecified")
 			(uuid "92123351-21ac-4265-8d3d-4aaaf2ded336")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -15500,7 +15555,7 @@
 			(pintype "unspecified")
 			(uuid "34ad2e66-c8c8-4aeb-97e2-75e2c9d3dd4e")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -16081,7 +16136,7 @@
 			(pintype "unspecified")
 			(uuid "918c2de0-7167-4a2f-8f8e-85304c5610c5")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/R0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/R0603.wrl"
 			(offset
 				(xyz -0.004952999926 0 0.009905999851)
 			)
@@ -16275,7 +16330,7 @@
 			(pintype "unspecified")
 			(uuid "7bace46e-c039-4cc2-94da-40b027b6af30")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/LED-SMD_L1.7-W0.6-RD.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/LED-SMD_L1.7-W0.6-RD.wrl"
 			(offset
 				(xyz -0.0000761999988556 -0.3626611946 0.005079999924)
 			)
@@ -21689,7 +21744,7 @@
 			(pintype "unspecified")
 			(uuid "7bfa7c65-87da-4a78-a630-d7e396732798")
 		)
-		(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/C0603.wrl"
+		(model "${KIPRJMOD}/lib/Bohlebots_lib/footprint/packages3d/C0603.wrl"
 			(offset
 				(xyz -0.4969509925 -0.1269999981 0.400049994)
 			)
