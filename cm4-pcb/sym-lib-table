@@ -5,4 +5,5 @@
   (lib (name "sarcat")(type "KiCad")(uri "${KIPRJMOD}/lib/sarcat.kicad_sym")(options "")(descr ""))
   (lib (name "USB1125-GF-B")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_Connector/USB1125-GF-B.kicad_sym")(options "")(descr ""))
   (lib (name "J0011D21NL")(type "KiCad")(uri "${KIPRJMOD}/lib/J0011D21NL/J0011D21NL.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD122DMYR")(type "KiCad")(uri "${KIPRJMOD}/lib/ESD122DMYR/ESD122DMYR.kicad_sym")(options "")(descr ""))
 )
