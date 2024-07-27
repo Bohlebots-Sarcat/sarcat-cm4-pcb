@@ -4617,6 +4617,175 @@
 				)
 			)
 		)
+		(symbol "ESD122DMYR:ESD122DMYR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ESD122DMYR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ESD122DMYR"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-ESD122DMYR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD122DMYR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESD122DMYR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "J0011D21NL:J0011D21NL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7767,6 +7936,12 @@
 		(uuid "e25cbd4e-0fa2-436d-b699-21c9bd4af92a")
 	)
 	(junction
+		(at 288.29 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f30cf0-c227-461c-9454-905fc937366c")
+	)
+	(junction
 		(at 160.02 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8819,6 +8994,16 @@
 			(type default)
 		)
 		(uuid "2c2fcd6a-2496-4ff9-a508-99401f53a7e9")
+	)
+	(wire
+		(pts
+			(xy 288.29 73.66) (xy 288.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1e9f0d-d563-4453-b6aa-707b511173a7")
 	)
 	(wire
 		(pts
@@ -10372,6 +10557,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 64.77) (xy 288.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1000c60-d3c9-4af2-8eb9-c655b85d1603")
+	)
+	(wire
+		(pts
 			(xy 133.35 127) (xy 134.62 128.27)
 		)
 		(stroke
@@ -10763,6 +10958,18 @@
 		(uuid 46e75f82-2f84-45ef-8d8d-1ba04b4f6265)
 	)
 	(rectangle
+		(start 334.01 71.755)
+		(end 382.905 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57aba807-7332-4835-96ea-2cf626172301)
+	)
+	(rectangle
 		(start 77.47 157.48)
 		(end 115.57 193.04)
 		(stroke
@@ -10785,6 +10992,18 @@
 			(type none)
 		)
 		(uuid 5af1da21-bed6-4fe0-955e-163aff33ee2d)
+	)
+	(rectangle
+		(start 334.01 52.705)
+		(end 382.905 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b27b11d-11a1-4c47-8058-ec74b3970ffc)
 	)
 	(rectangle
 		(start 12.7 157.48)
@@ -10881,6 +11100,18 @@
 			(type none)
 		)
 		(uuid c9e8c076-cb66-4953-8dd0-bc42e57d8776)
+	)
+	(rectangle
+		(start 281.305 52.705)
+		(end 333.375 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cac811cc-5d6c-494a-8185-f1ca63b2c17b)
 	)
 	(rectangle
 		(start 12.7 194.31)
@@ -11056,6 +11287,50 @@
 		)
 		(uuid "161a0565-4ce0-4163-aad0-7f1f482ea3ac")
 	)
+	(label "TRD0_N"
+		(at 318.77 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19d95ea6-63e8-42f1-8de4-0c89dab6884a")
+	)
+	(label "TRD1_N"
+		(at 318.77 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f95f3c1-4fd0-46f9-ae01-86a5c65a78f7")
+	)
+	(label "TRD1_P"
+		(at 318.77 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ef596af-d06a-415e-9546-ed27ef165123")
+	)
+	(label "TRD0_P"
+		(at 318.77 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "897dc730-c4b4-465b-be40-940c39aca1af")
+	)
 	(label "TRD0_P"
 		(at 95.25 40.64 180)
 		(fields_autoplaced yes)
@@ -11132,6 +11407,28 @@
 			(justify right bottom)
 		)
 		(uuid "f798764b-70fe-4434-8ce4-3438c1ee2648")
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 370.84 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03065c8b-7d1c-452b-b3af-94504584bf67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.4441 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SCL"
 		(shape bidirectional)
@@ -11221,6 +11518,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 370.84 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173ba637-acba-4015-a3b9-84ebf9d4b1da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.5046 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP-P23"
 		(shape bidirectional)
 		(at 25.4 86.36 180)
@@ -11256,6 +11575,28 @@
 		(uuid "2ece6dbf-a08e-4175-b8b1-cb7f2aa69ebb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.5042 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 370.84 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30d234fa-be57-42d3-8fe3-78304cf9690a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5565 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,6 +11971,28 @@
 		(uuid "7b2d1edc-4a77-4583-87a5-54e553e5d1d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3646 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 370.84 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e65f5f8-c5fb-46bf-bd7c-27a3d65d1017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5565 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13757,6 +14120,72 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 340.36 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb50e4e-986c-433e-8e43-551b1d5dede5")
+		(property "Reference" "#PWR037"
+			(at 340.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea9cea93-a5b9-4146-bec5-aa0701c418af")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:SMD-10k")
 		(at 58.42 170.18 0)
 		(unit 1)
@@ -14055,6 +14484,129 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD122DMYR:ESD122DMYR")
+		(at 340.36 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d57987e-d16b-4dd8-a22b-8e6929eaa720")
+		(property "Reference" "D3"
+			(at 355.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD122DMYR"
+			(at 355.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESD122DMYR"
+			(at 367.03 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
+			(at 367.03 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
+			(at 340.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 367.03 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD122DMYR"
+			(at 367.03 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
+			(at 367.03 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 367.03 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD122DMYR"
+			(at 367.03 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "513295b3-6e39-4812-9ee9-7dc3e6521948")
+		)
+		(pin "3"
+			(uuid "c9bc3925-9b31-4b10-8f33-37a5e769d389")
+		)
+		(pin "1"
+			(uuid "f1ef516e-18f8-4136-a448-cb5018936df5")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14987,6 +15539,129 @@
 		)
 	)
 	(symbol
+		(lib_id "ESD122DMYR:ESD122DMYR")
+		(at 340.36 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78f2dff5-a0fe-4ee9-8145-7b9b1e93c0b6")
+		(property "Reference" "D4"
+			(at 355.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD122DMYR"
+			(at 355.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESD122DMYR"
+			(at 367.03 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
+			(at 367.03 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
+			(at 340.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 367.03 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD122DMYR"
+			(at 367.03 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
+			(at 367.03 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 367.03 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD122DMYR"
+			(at 367.03 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce337f14-38ba-4533-b312-f94255b5bbaf")
+		)
+		(pin "3"
+			(uuid "904537d8-7956-44cc-a545-dbd5698c09dc")
+		)
+		(pin "1"
+			(uuid "8165116a-e422-4c62-aae3-6cec5492ba74")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:Taster_Led")
 		(at 260.35 45.72 0)
 		(unit 1)
@@ -15076,6 +15751,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "Taster_LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 288.29 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc4c11c-67cd-4f23-93c4-9e8a6bdf980d")
+		(property "Reference" "#PWR014"
+			(at 294.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420782d3-de02-43e9-bbc2-6005fe631208")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15488,6 +16230,129 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD122DMYR:ESD122DMYR")
+		(at 288.29 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928819a7-aca3-4ea2-af5f-2b1554db23ac")
+		(property "Reference" "D1"
+			(at 303.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD122DMYR"
+			(at 303.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESD122DMYR"
+			(at 314.96 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
+			(at 314.96 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
+			(at 288.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 314.96 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD122DMYR"
+			(at 314.96 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
+			(at 314.96 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 314.96 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD122DMYR"
+			(at 314.96 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a30bbef8-e42a-4a0f-8b36-982dcd67844b")
+		)
+		(pin "3"
+			(uuid "8cb6787d-6af6-4daf-b9be-6d7e50523910")
+		)
+		(pin "1"
+			(uuid "6fb69b4a-0fee-4560-b3f8-ae43312b4234")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16904,6 +17769,195 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "Module1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD122DMYR:ESD122DMYR")
+		(at 288.29 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f9c5ed-6d52-4c96-9d6b-5900339ed42a")
+		(property "Reference" "D2"
+			(at 303.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD122DMYR"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESD122DMYR"
+			(at 314.96 174.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
+			(at 314.96 274.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
+			(at 288.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 314.96 474.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD122DMYR"
+			(at 314.96 574.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
+			(at 314.96 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 314.96 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD122DMYR"
+			(at 314.96 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abaa7f80-d0eb-4c47-b894-2d32c5e5eaae")
+		)
+		(pin "3"
+			(uuid "75bf5a0f-9aa7-4dcd-a670-259cb9c8107d")
+		)
+		(pin "1"
+			(uuid "3c469323-4d5f-4877-bebd-3b89f4f79d4e")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 340.36 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c468974e-fb89-4c59-8655-0b10a31e11f8")
+		(property "Reference" "#PWR026"
+			(at 340.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fff307f-807e-4fd4-86a4-4d99213d3975")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
