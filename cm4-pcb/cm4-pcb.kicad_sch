@@ -11006,6 +11006,18 @@
 		(uuid 5b27b11d-11a1-4c47-8058-ec74b3970ffc)
 	)
 	(rectangle
+		(start 349.25 35.56)
+		(end 398.78 51.435)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5cbdaf3f-bd3c-457a-a4a8-54d5bc3e92c9)
+	)
+	(rectangle
 		(start 12.7 157.48)
 		(end 76.2 193.04)
 		(stroke
@@ -11055,7 +11067,7 @@
 	)
 	(rectangle
 		(start 119.38 199.39)
-		(end 208.28 240.665)
+		(end 193.675 240.665)
 		(stroke
 			(width 0)
 			(type default)
@@ -11236,6 +11248,16 @@
 		)
 		(uuid "815a6210-37b2-4782-aae3-e993f459cd18")
 	)
+	(text "+5V Connector"
+		(exclude_from_sim no)
+		(at 391.16 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cf58e56-1ecf-467d-a4fa-0074a1dd3b72")
+	)
 	(text "IR-Connector"
 		(exclude_from_sim no)
 		(at 270.764 63.754 0)
@@ -11265,6 +11287,16 @@
 			)
 		)
 		(uuid "ec5d09db-e2a4-4e17-a30c-4060d49e3299")
+	)
+	(text "Capacitors"
+		(exclude_from_sim no)
+		(at 188.214 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6ddca76-6588-4633-a63a-adc5767864d0")
 	)
 	(text "CM4\n"
 		(exclude_from_sim no)
@@ -12972,6 +13004,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 369.57 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a4e1dbe-19db-475f-95ea-1f0a749048be")
+		(property "Reference" "J8"
+			(at 372.11 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 372.11 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f519e2-1fa1-4acd-b1a7-85d3fa9c952b")
+		)
+		(pin "2"
+			(uuid "a5e04b66-90b7-49ea-b3e9-7852775b6bf9")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:Taster_Led")
 		(at 260.35 25.4 0)
 		(unit 1)
@@ -13335,6 +13437,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 364.49 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0f276c-cded-416e-9844-ed8e619873c4")
+		(property "Reference" "#PWR046"
+			(at 358.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.68 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8a721f-894f-4ea3-8135-7f254e45ece2")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14180,6 +14349,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+5V")
+		(at 364.49 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b7da37-ff43-41cc-bfb8-db7702e370d0")
+		(property "Reference" "#PWR038"
+			(at 368.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 360.68 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 364.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c21bd15-e14b-4091-9bcd-c99fb8677d8d")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
