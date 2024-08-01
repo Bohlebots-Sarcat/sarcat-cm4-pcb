@@ -8032,10 +8032,6 @@
 		(uuid "1fa29a93-3dd7-4d0b-9189-30ee53b01130")
 	)
 	(no_connect
-		(at 86.36 144.78)
-		(uuid "2888ffcb-b4e5-474a-9be5-278df884d875")
-	)
-	(no_connect
 		(at 86.36 127)
 		(uuid "292ad6da-b653-4683-9024-40d1a0a38b4a")
 	)
@@ -9227,7 +9223,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 213.36) (xy 168.91 218.44)
+			(xy 168.91 213.36) (xy 168.91 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10057,7 +10053,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 213.36) (xy 151.13 215.9)
+			(xy 151.13 213.36) (xy 151.13 214.63)
 		)
 		(stroke
 			(width 0)
@@ -10244,6 +10240,16 @@
 			(type default)
 		)
 		(uuid "aca74719-8f4d-4182-9ca7-232bc907ea5b")
+	)
+	(wire
+		(pts
+			(xy 151.13 222.25) (xy 151.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace42229-a722-4c6d-8d34-793deb72bc6c")
 	)
 	(wire
 		(pts
@@ -10497,7 +10503,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 220.98) (xy 168.91 223.52)
+			(xy 168.91 219.71) (xy 168.91 223.52)
 		)
 		(stroke
 			(width 0)
@@ -11137,6 +11143,18 @@
 		)
 		(uuid db60ea3b-faa4-43a2-9168-a5fda9f77646)
 	)
+	(rectangle
+		(start 143.51 157.48)
+		(end 168.91 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9891fdc-0b42-429a-8a7d-a24486fa6707)
+	)
 	(text "Ethernet Magjack"
 		(exclude_from_sim no)
 		(at 338.836 14.478 0)
@@ -11176,6 +11194,16 @@
 			)
 		)
 		(uuid "28f4f42b-e4c1-4fda-9942-27390aaa2976")
+	)
+	(text "Lichtschranke"
+		(exclude_from_sim no)
+		(at 162.052 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29c2a0f3-a55b-4d5a-b4e6-0ad89896589a")
 	)
 	(text "Grounded for fixed use as USB Host, datasheet chapter 2.4 and pinout"
 		(exclude_from_sim no)
@@ -12034,6 +12062,28 @@
 			)
 		)
 	)
+	(global_label "A1"
+		(shape input)
+		(at 156.21 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ebf720e-ab7b-4fe8-844f-1f756f9c7e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4933 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 219.71 63.5 180)
@@ -12333,6 +12383,28 @@
 		(uuid "d699f00c-2d5e-4bb0-9503-3760c2194193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.0342 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape input)
+		(at 86.36 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc3dd4c6-daf7-4e1a-ba52-c2016bcc5519")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.6433 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,6 +14427,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 151.13 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3adfa7-c33d-444e-999f-26193c223f92")
+		(property "Reference" "J9"
+			(at 151.765 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 151.765 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb70e311-05fb-4fc8-b92f-f0a659fe480d")
+		)
+		(pin "1"
+			(uuid "a5853aba-5968-4fa3-a6b9-d5386546d231")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:+5V")
 		(at 364.49 40.64 90)
 		(unit 1)
@@ -15266,7 +15406,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:SMD-100nF")
-		(at 151.13 219.71 270)
+		(at 151.13 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15275,7 +15415,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ea99bb0-c0bb-4762-9c68-55ed95414af5")
 		(property "Reference" "C4"
-			(at 154.94 218.4399 90)
+			(at 154.94 217.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,7 +15424,7 @@
 			)
 		)
 		(property "Value" "SMD-100nF"
-			(at 154.94 220.9799 90)
+			(at 154.94 219.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15293,7 +15433,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:C0603"
-			(at 140.97 219.71 0)
+			(at 140.97 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15303,7 +15443,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/362304.html"
-			(at 153.67 215.9 0)
+			(at 153.67 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 219.71 0)
+			(at 151.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,7 +15462,7 @@
 			)
 		)
 		(property "LCSC" "C30926"
-			(at 151.13 219.71 0)
+			(at 151.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18909,7 +19049,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 173.99 218.44 0)
+		(at 173.99 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18918,7 +19058,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5feb852-ee21-4344-be67-7e38c43761fd")
 		(property "Reference" "J7"
-			(at 176.53 218.4399 0)
+			(at 176.53 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18927,7 +19067,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 176.53 220.9799 0)
+			(at 176.53 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18936,7 +19076,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 173.99 218.44 0)
+			(at 173.99 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18945,7 +19085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 218.44 0)
+			(at 173.99 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18954,7 +19094,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 218.44 0)
+			(at 173.99 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19982,6 +20122,73 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 156.21 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0c01d2c-e222-4efc-b050-22754e29ff3c")
+		(property "Reference" "#PWR047"
+			(at 162.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb23324-6be8-4d3f-84ab-77c08e682380")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
