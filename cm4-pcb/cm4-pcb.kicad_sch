@@ -7900,6 +7900,12 @@
 		(uuid "cd857b0a-3eae-4420-8706-16533b98cf19")
 	)
 	(junction
+		(at 165.1 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1cff46a-6d0a-4e66-bb68-4ba12a1c0816")
+	)
+	(junction
 		(at 142.24 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8993,6 +8999,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 177.8) (xy 165.1 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3f0256-c535-4b7b-bda8-babe0e1d69e4")
+	)
+	(wire
+		(pts
 			(xy 288.29 73.66) (xy 288.29 80.01)
 		)
 		(stroke
@@ -9160,6 +9176,16 @@
 			(type default)
 		)
 		(uuid "3b48a3f9-ab1f-427a-bb19-bd3109755c32")
+	)
+	(wire
+		(pts
+			(xy 170.18 179.07) (xy 165.1 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b66d658-585c-4c67-94bf-23aac43bb7a8")
 	)
 	(wire
 		(pts
@@ -9600,6 +9626,16 @@
 			(type default)
 		)
 		(uuid "68ef2241-6ee5-4346-9181-fc292bd39ba1")
+	)
+	(wire
+		(pts
+			(xy 165.1 179.07) (xy 157.48 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69652c2c-90ce-4db9-8cae-e261161f8a57")
 	)
 	(wire
 		(pts
@@ -11144,8 +11180,8 @@
 		(uuid db60ea3b-faa4-43a2-9168-a5fda9f77646)
 	)
 	(rectangle
-		(start 143.51 157.48)
-		(end 168.91 173.99)
+		(start 142.875 157.48)
+		(end 187.96 188.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -11197,7 +11233,7 @@
 	)
 	(text "Lichtschranke"
 		(exclude_from_sim no)
-		(at 162.052 159.004 0)
+		(at 181.102 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12064,7 +12100,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 156.21 167.64 0)
+		(at 170.18 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12074,7 +12110,7 @@
 		)
 		(uuid "7ebf720e-ab7b-4fe8-844f-1f756f9c7e2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4933 167.64 0)
+			(at 175.4633 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14428,7 +14464,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 151.13 167.64 0)
+		(at 152.4 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14437,7 +14473,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e3adfa7-c33d-444e-999f-26193c223f92")
 		(property "Reference" "J9"
-			(at 151.765 162.56 0)
+			(at 153.035 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +14481,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 151.765 165.1 0)
+			(at 153.035 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,7 +14489,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 151.13 167.64 0)
+			(at 152.4 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14462,7 +14498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 167.64 0)
+			(at 152.4 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14471,7 +14507,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 151.13 167.64 0)
+			(at 152.4 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17340,6 +17376,87 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:SMD-10k")
+		(at 165.1 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b93d1933-2d12-4aa3-a859-21211b1fc0d4")
+		(property "Reference" "R7"
+			(at 167.64 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMD-10k"
+			(at 167.64 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BohleBots:R0603"
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 169.418 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6aa40cb-adb9-4a59-99dc-1050905c7096")
+		)
+		(pin "2"
+			(uuid "7a4529a8-9ac5-4642-8461-edd557d1dcaa")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:GND")
 		(at 55.88 29.21 180)
 		(unit 1)
@@ -20129,7 +20246,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 156.21 170.18 90)
+		(at 157.48 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20138,7 +20255,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0c01d2c-e222-4efc-b050-22754e29ff3c")
 		(property "Reference" "#PWR047"
-			(at 162.56 170.18 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20147,7 +20264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 170.1799 90)
+			(at 161.29 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20156,7 +20273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 170.18 0)
+			(at 157.48 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20165,7 +20282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 170.18 0)
+			(at 157.48 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20174,7 +20291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 170.18 0)
+			(at 157.48 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20189,6 +20306,72 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+3.3V")
+		(at 165.1 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e922acfa-4119-4c6f-a22e-e6c2dfc062f7")
+		(property "Reference" "#PWR048"
+			(at 165.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efdc02d6-0b60-42ec-a447-10632d6087ef")
+		)
+		(instances
+			(project "cm4-pcb"
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
