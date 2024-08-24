@@ -1,0 +1,214 @@
+(footprint "HDR-TH_8P-P2.54-V-M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HDR-TH_8P-P2.54-V-M footprint")
+	(tags "HDR-TH_8P-P2.54-V-M footprint")
+	(property "Reference" "REF**"
+		(at 0 -3.270003 0)
+		(layer "F.SilkS")
+		(uuid "4133ccdc-f3ee-4072-a61e-7fe68e5edcf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_8P-P2.54-V-M"
+		(at 0 3.270003 0)
+		(layer "F.Fab")
+		(uuid "9a03c334-d5fd-4411-bf76-829745e3b842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1458a84-2de2-48b0-a447-508976869e42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e11793-d7b5-4279-899b-88c9c283049e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21f9b33e-bb7f-45dd-9c6a-22dc20160ef9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.159995 -1.270003)
+		(end 10.159995 -1.270003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa5adaa8-efd4-4f6d-b5c4-c946fec017b5")
+	)
+	(fp_line
+		(start -10.159995 1.270003)
+		(end -10.159995 -1.270003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ba497bc-ff30-4f87-a05c-03fa566e6af4")
+	)
+	(fp_line
+		(start -7.596495 -1.270003)
+		(end -7.596495 1.270003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61793fa8-c3ca-49d8-9c7c-e2ef4096a8a9")
+	)
+	(fp_line
+		(start 10.159995 -1.270003)
+		(end 10.159995 1.270003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a36a5d55-924b-4bf2-92e1-935420d45255")
+	)
+	(fp_line
+		(start 10.159995 1.270003)
+		(end -10.159995 1.270003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67bff22a-41bb-4ad0-92f2-ea8aed432e99")
+	)
+	(fp_circle
+		(center -10.16002 1.250013)
+		(end -10.130023 1.250013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a456b379-994a-43c1-b485-d60975fe0e98")
+	)
+	(fp_text user "REF**"
+		(at 0 5.270003 0)
+		(layer "F.Fab")
+		(uuid "a5a6a5d8-9835-4af7-8c52-a846b4d5f88d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -8.890018 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c18fa6a5-2699-4481-bac6-5ea034ce97f5")
+	)
+	(pad "2" thru_hole circle
+		(at -6.350013 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bcea38ea-ab86-41b7-a144-4a354fa6c04a")
+	)
+	(pad "3" thru_hole circle
+		(at -3.810008 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f87150cd-b7a8-4af9-9b57-3c767694af1e")
+	)
+	(pad "4" thru_hole circle
+		(at -1.270003 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5f1f4bb-26a9-4e54-81ee-bbc305624bf4")
+	)
+	(pad "5" thru_hole circle
+		(at 1.270003 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "844a0dcf-3907-4eb3-b66f-62e6c22ddd70")
+	)
+	(pad "6" thru_hole circle
+		(at 3.810008 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96cf808a-15e2-4653-8dea-8919cc87297a")
+	)
+	(pad "7" thru_hole circle
+		(at 6.350013 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7e5771d-117b-49ca-8fe0-0ed401346241")
+	)
+	(pad "8" thru_hole circle
+		(at 8.890018 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da947703-3344-43a8-b94b-a37fe52b7206")
+	)
+	(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/HDR-TH_8P-P2.54-V-M.wrl"
+		(offset
+			(xyz -7.6 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

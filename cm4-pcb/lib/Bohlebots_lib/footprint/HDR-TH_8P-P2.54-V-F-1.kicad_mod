@@ -1,0 +1,204 @@
+(footprint "HDR-TH_8P-P2.54-V-F-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HDR-TH_8P-P2.54-V-F-1 footprint")
+	(tags "HDR-TH_8P-P2.54-V-F-1 footprint")
+	(property "Reference" "REF**"
+		(at 0 -3.219964 0)
+		(layer "F.SilkS")
+		(uuid "235721cc-1ba7-42a0-88e6-abca3b4de7a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_8P-P2.54-V-F-1"
+		(at 0 3.219964 0)
+		(layer "F.Fab")
+		(uuid "6f0830b1-c641-4a03-aaf9-65a46c60ab67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4c9c547-4e24-4835-ab23-e0747efa644f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34d6f0cd-6927-4010-aa24-a6f5ddeb8987")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6dad095-0098-4705-9132-21fd34f55364")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.409982 -1.219964)
+		(end 10.410008 -1.219964)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc6aa92-65dc-418a-8673-b4eb38f9ce66")
+	)
+	(fp_line
+		(start -10.409982 1.219964)
+		(end -10.410008 -1.219964)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6aded05-7d45-436e-a21e-c5398dc0ab1d")
+	)
+	(fp_line
+		(start 10.409982 -1.219964)
+		(end 10.410008 1.219964)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5584165-5ed5-4edd-8fa0-39ec2036ca6c")
+	)
+	(fp_line
+		(start 10.410008 1.219964)
+		(end -10.409982 1.219964)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e536cb1-6a02-4980-9163-96f4f7270e8f")
+	)
+	(fp_circle
+		(center -10.537008 1.346965)
+		(end -10.50701 1.346965)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "40c6b474-5e5d-468c-9c30-59838ae65df5")
+	)
+	(fp_text user "REF**"
+		(at 0 5.219964 0)
+		(layer "F.Fab")
+		(uuid "96bcae10-ed06-4bee-a25c-adc2e4a6a583")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -8.890018 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4ee2966-eeeb-4ae0-b9b1-7fe0cc5f0812")
+	)
+	(pad "2" thru_hole circle
+		(at -6.350013 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efb4068a-b95b-4c44-831b-cf22e4bdc71e")
+	)
+	(pad "3" thru_hole circle
+		(at -3.810008 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12e420c8-c9e2-47f3-8a01-410dfe14dbc6")
+	)
+	(pad "4" thru_hole circle
+		(at -1.270003 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "925c954b-bed3-40cc-a6fa-cf9a719772c8")
+	)
+	(pad "5" thru_hole circle
+		(at 1.270003 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96bd334f-1056-4afe-898d-4c0f49c938e1")
+	)
+	(pad "6" thru_hole circle
+		(at 3.810008 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47fb4e4c-1d74-4bd5-9fe9-d1709e709548")
+	)
+	(pad "7" thru_hole circle
+		(at 6.350013 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "307f53f0-094a-40e2-a3a8-818dd68cc9b4")
+	)
+	(pad "8" thru_hole circle
+		(at 8.890018 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f162992-74cb-498c-a3e8-0b2e2f7412e2")
+	)
+	(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/HDR-TH_8P-P2.54-V-F-1.wrl"
+		(offset
+			(xyz 8.9 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

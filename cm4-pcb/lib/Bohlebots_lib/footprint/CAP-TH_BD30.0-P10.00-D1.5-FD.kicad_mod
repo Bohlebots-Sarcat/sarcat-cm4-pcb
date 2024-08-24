@@ -1,0 +1,160 @@
+(footprint "CAP-TH_BD30.0-P10.00-D1.5-FD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-TH_BD30.0-P10.00-D1.5-FD footprint")
+	(tags "CAP-TH_BD30.0-P10.00-D1.5-FD footprint")
+	(property "Reference" "REF**"
+		(at 0 -5.28029 0)
+		(layer "F.SilkS")
+		(uuid "044266ed-002c-4a28-bab0-e7790ccb3e79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_BD30.0-P10.00-D1.5-FD"
+		(at 0 5.28029 0)
+		(layer "F.Fab")
+		(uuid "2cdbea12-b623-452a-ae67-8f3e88f0233e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d49a2e0-b130-4328-837e-0aefd3adcae3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e785f5-4551-45c0-b2b9-113282985715")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff673bb2-ec34-485a-a183-306887e3afa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -9.681052 -11.45809)
+		(mid 9.694962 11.444996)
+		(end -9.909114 -11.263185)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9aff7fe-ca6d-4353-8881-c882cb8ed49d")
+	)
+	(fp_arc
+		(start -9.037922 -10.691135)
+		(mid 9.032928 10.696428)
+		(end -9.250894 -10.509357)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1c4a195-db91-4602-adf3-1c2c64f6093a")
+	)
+	(fp_circle
+		(center -15.000127 14.999873)
+		(end -14.970155 14.999873)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "338ad668-1bc2-4eaf-954d-53df87ba1976")
+	)
+	(fp_text user "-"
+		(at 3.791339 -0.018923 0)
+		(layer "F.SilkS")
+		(uuid "b242de61-6258-443b-b03f-01cc8e1035cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.208915 6.481204 0)
+		(layer "F.SilkS")
+		(uuid "bb313c62-5bdf-4b36-9225-29830744eaa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "REF**"
+		(at 0 7.28029 0)
+		(layer "F.Fab")
+		(uuid "29577afe-b1e9-4f2b-8497-33bfa575be47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.773559 3.28029)
+		(size 3.5 3.5)
+		(drill 2.300025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4defd65c-a23b-438f-bed1-c328ab1adf45")
+	)
+	(pad "2" thru_hole circle
+		(at 3.773559 -3.28029)
+		(size 3.5 3.5)
+		(drill 2.300025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3dd37bb2-0642-4198-93b2-dfd95c3079d7")
+	)
+	(model "/home/roland/Roboter/bohlebots/Coachdaten/KiCad/scripts/JLCPCB2KiCad/bin/../../../Bohlebots_lib//footprint/packages3d/CAP-TH_BD30.0-P10.00-D1.5-FD.wrl"
+		(offset
+			(xyz -0.003048 0.009525 0.499999)
+		)
+		(scale
+			(xyz 1 1 0.4)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
