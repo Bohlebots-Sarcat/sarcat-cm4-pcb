@@ -4293,126 +4293,6 @@
 				)
 			)
 		)
-		(symbol "bohlebots.lib:SMD-100R"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMD-100R"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BohleBots:R0603"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-				(at -5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C22775"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C22775"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMD-100R_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SMD-100R_1_1"
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bohlebots.lib:SMD-100nF"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5882,12 +5762,6 @@
 		(uuid "35aed396-5920-48a8-971c-62d86b1232b4")
 	)
 	(junction
-		(at 95.25 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "394ad345-aae6-4871-9c9c-f9589a36541c")
-	)
-	(junction
 		(at 43.18 134.6201)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6024,6 +5898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ead4ba4-5df2-4411-8bbe-73dca7685a61")
+	)
+	(junction
+		(at 95.25 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ec14af0-a2a2-410f-a55c-391108722313")
 	)
 	(junction
 		(at 137.1601 127.0001)
@@ -7215,6 +7095,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 166.37) (xy 104.14 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2346e97c-b82d-4bcb-b9ce-410855fe9bb8")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 140.97 74.93)
 		)
 		(stroke
@@ -7642,16 +7532,6 @@
 			(type default)
 		)
 		(uuid "4a4948a0-5e83-443f-b33b-3fc591e057d9")
-	)
-	(wire
-		(pts
-			(xy 104.14 166.37) (xy 95.25 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aeab125-3c7b-43a1-bdd0-747b19dbb0c9")
 	)
 	(wire
 		(pts
@@ -9335,7 +9215,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 166.37) (xy 90.17 166.37)
+			(xy 90.17 166.37) (xy 95.25 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11658,6 +11538,85 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:SMD-220R")
+		(at 39.37 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0475c3-ae0d-4b86-b0e4-236646861395")
+		(property "Reference" "R5"
+			(at 39.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD-220R"
+			(at 39.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BohleBots:R0603"
+			(at 39.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 37.084 205.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217883"
+			(at 39.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c69da3-7cc7-4751-b720-eac8fce9cb02")
+		)
+		(pin "2"
+			(uuid "b887e3b4-679c-473e-b903-1e2805a53b4f")
+		)
+		(instances
+			(project ""
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:Taster_Led")
 		(at 260.35 25.4 0)
 		(unit 1)
@@ -12941,85 +12900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bohlebots.lib:SMD-100R")
-		(at 39.37 205.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39a626b1-59af-4c68-b78e-d1e656a11c7f")
-		(property "Reference" "R6"
-			(at 39.37 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMD-100R"
-			(at 39.37 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BohleBots:R0603"
-			(at 39.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 44.45 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 39.37 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0123efa5-4dc0-42eb-9435-f0d5ba9529f1")
-		)
-		(pin "2"
-			(uuid "873c0c74-54f7-435a-91cf-e517d709a1c5")
-		)
-		(instances
-			(project "cm4-pcb"
-				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 215.9 88.9 0)
 		(unit 1)
@@ -13084,87 +12964,6 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bohlebots.lib:SMD-100R")
-		(at 95.25 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c4f5218-fb22-48db-910c-f4792dc8a25c")
-		(property "Reference" "R5"
-			(at 97.79 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMD-100R"
-			(at 97.79 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BohleBots:R0603"
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 95.25 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73ec1fba-2930-4729-9169-06ad2b70e9e3")
-		)
-		(pin "2"
-			(uuid "12362301-b7b3-4ca3-8cbb-b24b6b79dd58")
-		)
-		(instances
-			(project "cm4-pcb"
-				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16118,6 +15917,87 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:SMD-220R")
+		(at 95.25 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b784bf5a-bc82-41f9-8361-16778f091854")
+		(property "Reference" "R8"
+			(at 97.79 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD-220R"
+			(at 97.79 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:R0603"
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 95.377 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C217883"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23ce7fa8-996d-45f1-8e4e-e6c587ace5d1")
+		)
+		(pin "1"
+			(uuid "0cec144f-ac90-4ff7-a03d-d6dce7732307")
+		)
+		(instances
+			(project ""
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
