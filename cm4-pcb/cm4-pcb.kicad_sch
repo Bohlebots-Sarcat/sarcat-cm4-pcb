@@ -4845,7 +4845,7 @@
 				)
 			)
 		)
-		(symbol "bohlebots.lib:SMD-680uF"
+		(symbol "bohlebots.lib:SMD-220uF_50V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4858,8 +4858,8 @@
 					)
 				)
 			)
-			(property "Value" "SMD-680uF"
-				(at -10.414 -1.397 0)
+			(property "Value" "SMD-220uF_50V"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4867,7 +4867,7 @@
 				)
 			)
 			(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-				(at -4.064 -9.017 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4877,7 +4877,7 @@
 				)
 			)
 			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
-				(at -12.7 1.27 0)
+				(at -2.286 0.127 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4895,16 +4895,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C335987"
-				(at -10.414 1.143 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C335987"
+			(property "LCSC" "C125977"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4913,7 +4904,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMD-680uF_0_1"
+			(property "ki_keywords" "C125977"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD-220uF_50V_0_1"
 				(rectangle
 					(start -2.54 1.524)
 					(end -1.524 1.4986)
@@ -11712,87 +11712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bohlebots.lib:SMD-680uF")
-		(at 132.08 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "184a1d15-7250-4a5a-afc0-3e95f0edff14")
-		(property "Reference" "C5"
-			(at 135.89 217.4239 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMD-680uF"
-			(at 135.89 219.9639 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 128.016 227.457 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
-			(at 119.38 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C335987"
-			(at 121.666 217.297 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52499b93-36de-4631-ab43-7e272768e949")
-		)
-		(pin "2"
-			(uuid "21841fca-a060-4bb8-9c8e-4b33af24e6ab")
-		)
-		(instances
-			(project ""
-				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bohlebots.lib:MountingHole")
 		(at 214.63 114.3 0)
 		(unit 1)
@@ -13554,6 +13473,87 @@
 			(project "cm4-pcb"
 				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:SMD-220uF_50V")
+		(at 132.08 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e010662-2635-4680-9b5d-b085121c1270")
+		(property "Reference" "C3"
+			(at 135.89 217.4239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD-220uF_50V"
+			(at 135.89 219.9639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+			(at 132.08 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
+			(at 129.794 218.313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125977"
+			(at 132.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0286a122-e7e0-4a0d-aa3e-5d912673101e")
+		)
+		(pin "2"
+			(uuid "41f8625f-3bd7-41ea-bcf8-a62aafa00956")
+		)
+		(instances
+			(project ""
+				(path "/498e70b5-f2fd-4a95-9aba-8c3678ffa14c"
+					(reference "C3")
 					(unit 1)
 				)
 			)
